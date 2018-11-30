@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chessboard</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        .container {
+            border: 2px solid black;
+            box-sizing: content-box;
+            display: flex;
+            flex-direction: column;
+            height: 80vw;
+            margin: 0 auto;
+            width: 80vw;
+        }
+
+        .row {
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+        }
+
+
+        .white-box {
+            background-color: gray;
+            flex: 1;
+        }
+
+        .black-box {
+            background-color: black;
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275252/3_TORRE_Blanca_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275254/4_CABALLO_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275256/5_ALFIL_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275250/2_DAMA_Blanca_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275248/1_REY_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275256/5_ALFIL_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275254/4_CABALLO_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275252/3_TORRE_Blanca_Pieza-Mural_.png" alt=""></div>
+        </div>
+
+        <div class="row">
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275258/6_PEON_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275258/6_PEON_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275258/6_PEON_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275258/6_PEON_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275258/6_PEON_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275258/6_PEON_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275258/6_PEON_Blanco_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275258/6_PEON_Blanco_Pieza-Mural_.png" alt=""></div>
+        </div>
+
+        <div class="row">
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+        </div>
+
+        <div class="row">
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+        </div>
+
+        <div class="row">
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+        </div>
+
+        <div class="row">
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+            <div class="black-box"></div>
+            <div class="white-box"></div>
+        </div>
+
+        <div class="row">
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275259/6_PEON_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275259/6_PEON_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275259/6_PEON_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275259/6_PEON_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275259/6_PEON_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275259/6_PEON_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275259/6_PEON_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275259/6_PEON_Negro_Pieza-Mural_.png" alt=""></div>
+        </div>
+
+        <div class="row">
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275253/3_TORRE_Negra_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275255/4_CABALLO_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275257/5_ALFIL_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275251/2_DAMA_Negra_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275249/1_REY_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275257/5_ALFIL_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="black-box"><img src="https://openclipart.org/image/90px/svg_to_png/275255/4_CABALLO_Negro_Pieza-Mural_.png" alt=""></div>
+            <div class="white-box"><img src="https://openclipart.org/image/90px/svg_to_png/275253/3_TORRE_Negra_Pieza-Mural_.png" alt=""></div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

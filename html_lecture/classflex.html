@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            height: 800px;
+            justify-content: center;
+            align-items: baseline;
+            background-color: cornflowerblue;
+            flex-wrap: wrap;
+        }
+        .order1{
+            order: 1;
+        }
+        .order2{
+            order: 2;
+        }
+        .order3{
+            order: 3;
+        }
+        .order4{
+            order: 4;
+        }
+        .order5{
+            order: 5;
+        }
+        .flexgrow2{
+            flex-grow: 2;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            line-height: 200px;
+            text-align: center;
+            margin: 10px;
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            line-height: 200px;
+            text-align: center;
+            margin: 10px;
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .box3 {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            line-height: 200px;
+            text-align: center;
+            margin: 10px;
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .textcontainer {
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 500px;
+            width: 500px;
+            background-color: yellow; */
+
+        }
+
+        .text {
+            /* width: 100px;
+            height: 100px; */
+            /* text-align: center;
+            background-color: gray;
+            font-size: 20px; */
+
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="textcontainer">
+        <div class="text">
+            
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="box order4">1</div>
+        <div class="box">2</div>
+        <div class="box order1 flexgrow2">3</div>
+        <div class="box order2">4</div>
+        <div class="box">5</div>
+        <!-- <div class="box">5</div>
+        <div class="box">5</div>
+        <div class="box">5</div>
+        <div class="box">5</div>
+        <div class="box">5</div>
+        <div class="box">5</div> -->
+
+    </div>
+
+
+</body>
+
+</html>
